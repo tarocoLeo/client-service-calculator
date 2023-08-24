@@ -9,12 +9,12 @@ end
 
 def calculator_sum(a, b)
   response = get_response("http://localhost:3000/sum/#{a}/#{b}")
-  response['resultado']
+  response['result']
 end
 
 def calculator_division(a, b)
   response = get_response("http://localhost:3000/division/#{a}/#{b}")
-  response['resultado']
+  response['result']
 end
 
 # exemplos de uso
